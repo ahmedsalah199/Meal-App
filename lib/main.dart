@@ -50,7 +50,6 @@ class MyAppState extends State <MyApp> {
      if (index >=0) {
        setState(() {
          favorite_meal.removeAt(index);
-         git init
        });
      }
      else {
